@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-light">
+	<div class="container-fluid">
+		<a class="navbar-brand fs-3" href="#">#PHPDD23, Sept. 22, 2023</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-end fs-4">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#speakers">Speakers</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#schedule">Schedule</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#venue">Venue</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#sponsors">Sponsors</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#tickets">Tickets</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#team">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://dresden-code-of-conduct.org/en/" target="_blank">CoC</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid teaserimage">
+	<div class="teaserimage-image" style="background-image: url('{{ site.data.settings.cover | prepend: site.data.settings.baseurl }}')">
+		<a href="{{ '/' | prepend: site.data.settings.baseurl }}" class="text-decoration-none">
+			<img src="{{ site.data.settings.logo }}" alt="{{ site.data.imprint.name }} Logo" class="logo">
+		</a>
+	</div>
+</div>

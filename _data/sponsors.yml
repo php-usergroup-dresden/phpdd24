@@ -1,0 +1,68 @@
+email: 'orga@phpug-dresden.org'
+partner_package:
+  price: '500,- €'
+  price_reduced: '400,- €'
+  headline: 'What is a partner package?'
+  bullets:
+    - 3 x free tickets
+    - Company banner at the venue
+    - Logo and link on our website
+    - Post on our social media channels
+    - Visibility in the event app
+    - Announcement at the opening
+    - Promotional material including job advertisements
+additions:
+    headline: 'You want more?'
+    description: >
+      We offer individually priced additions to the partner package:
+    bullets:
+      - 'Company booth (2x2 meters with 2 representatives)'
+      - 'Badge and key band sponsor'
+      - 'Food, cake and drinks sponsor'
+      - 'Speaker sponsor: Small gifts are presented in the name of the sponsor'
+      - 'Own slide at the opening'
+      - 'Exclusive 90 seconds speaker slot at the opening'
+      - 'Own lecture slot (if the topic fits)'
+      - 'Use of CONFGAMES: 50 guaranteed conversations'
+      - '1x mobile app sponsor — Look&Feel of the app in your design'
+
+sponsors:
+  - name: 'LINEUPR GmbH'
+    image: '/assets/images/sponsors/lineupr.webp'
+    url: 'https://lineupr.com'
+
+  - name: 'move elevator GmbH'
+    image: '/assets/images/sponsors/move-elevator.webp'
+    url: 'https://www.move-elevator.de'
+
+  - name: 'MPOWR IT GmbH'
+    image: '/assets/images/sponsors/mpowr-it.webp'
+    url: 'https://mpowr.it'
+
+  - name: 'FORTUNE SOLUTIONS'
+    image: '/assets/images/sponsors/FortuneSolutions.webp'
+    url: 'https://fortuneglobe.com'
+
+  - name: 'Ostec GmbH'
+    image: '/assets/images/sponsors/ostec.webp'
+    url: 'https://ostec.de'
+
+  - name: 'dpunkt.verlag GmbH'
+    image: '/assets/images/sponsors/dpunktverlag.webp'
+    url: 'https://dpunkt.de/'
+
+  - name: 'webit! Gesellschaft für neue Medien mbH'
+    image: '/assets/images/sponsors/webit.webp'
+    url: 'https://www.webit.de/'
+
+  - name: 'Rheinwerk Verlag GmbH'
+    image: '/assets/images/sponsors/rheinwerk.webp'
+    url: 'https://www.rheinwerk-verlag.de/'
+
+  - name: 'seventhings'
+    image: '/assets/images/sponsors/seventhings.webp'
+    url: 'https://www.seventhings.com/'
+
+  - name: '☝️ Your company logo here'
+    image: 'https://dummyimage.com/300x300/fff/aaa'
+    url: 'mailto:orga@phpug-dresden.org'

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container-md mt-3 mb-4">
+      {% include breadcrumbs.html %}
+    </div>
+
+    <main class="container-md" role="main">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

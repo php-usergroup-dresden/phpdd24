@@ -1,0 +1,16 @@
+moderators:
+  - name: 'Anke Häslich'
+    description: |
+      For the past two years, Anke has been moderating NEOSCON, a community conference for the open source CMS NEOS. 
+      
+      As a dedicated developer at QUEO Group, Anke also likes to think outside the box and helps organise local meetups as well as motivating others to get involved in the community.
+      
+      We are very happy that Anke will guide us through the event on this special day!
+    image: '/assets/images/speakers/anke_haeslich.jpg'
+    social:
+      - icon: 'twitter'
+        url: 'https://twitter.com/ahaeslich'
+      - icon: 'linkedin'
+        url: 'https://www.linkedin.com/in/anke-h%C3%A4slich-577b55262/'
+      - icon: 'mastodon'
+        url: 'https://neos.social/@anke'

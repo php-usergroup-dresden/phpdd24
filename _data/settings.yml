@@ -1,0 +1,9 @@
+url: "https://phpdd.org"
+baseurl: ""
+title: "PHP Developer Day 2023 by PHP USERGROUP DRESDEN e.V."
+description: >
+  The community conference for PHP developers and beyond 
+
+logo: "/assets/images/PHPDD23-Logo.svg"
+cover: "/assets/images/PHPUGDD-Imagebild.webp"
+paginate: 5

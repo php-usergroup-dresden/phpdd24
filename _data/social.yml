@@ -1,0 +1,14 @@
+twitter_handle: '@phpugdd'
+social:
+  - icon:	twitter
+    url:	https://twitter.com/phpugdd
+    desc: Follow us on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+  - icon:	linkedin
+    url:	https://www.linkedin.com/company/php-usergroup-dresden
+    desc: Follow us on LinkedIn
+  - icon:	mastodon
+    url:	https://phpc.social/@phpugdd
+    desc: Follow us on Mastodon (phpc.social)

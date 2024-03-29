@@ -1,0 +1,277 @@
+---
+layout: default
+---
+<h1 id="home">Welcome PHPolks 🐘</h1>
+
+<div class="welcome-text">
+	<h2> 🎉 It is happening again!</h2>
+	<h3 class="h4 fw-light">
+		After four years of absence, the community event for PHP developers and beyond is back in Dresden!
+	</h3>
+	<h3 class="h4 fw-light">
+		Join us for a day packed with talks, networking and fun on September 22, 2023.
+	</h3>
+</div>
+
+<hr class="m-5">
+
+<h1 id="speakers">Speakers</h1>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+	{% for speaker in site.data.speakers.speakers %}
+	{% assign counter = forloop.index %}
+	<div class="col" id="speaker-{{ counter }}">
+		<div class="card{% if counter == 1 %} border-primary{% endif %}">
+			{% if speaker.image %}
+			<img src="{{ speaker.image }}" class="card-img-top" alt="{{ speaker.name }}" style="height: 480px; object-fit: cover;">
+			{% endif %}
+			<div class="card-body">
+				<div class="d-flex justify-content-between">
+					<h4 class="card-title">{{ speaker.name }}</h4>
+					<div class="text-end">
+						{% for social in speaker.social %}
+						<a href="{{ social.url }}" class="card-link">
+							<i class="fa-brands fa-{{ social.icon }}"></i>
+						</a>
+						{% endfor %}
+					</div>
+				</div>
+				{% if speaker.talk %}
+				<h5 class="mb-1">{% if counter == 1 %}Keynote{% else %}Talk{% endif %}</h5>
+				<p class="card-text" style="height: 60px;">{{ speaker.talk.title }}</p>
+				<div class="collapse" id="collapse-{{ forloop.index }}">
+					<h5 class="mb-1">Abstract</h5>
+					<p class="card-text mb-3">{{ speaker.talk.abstract | newline_to_br }}</p>
+					{% if speaker.bio %}
+					<h5 class="mb-1">Bio</h5>
+					<p class="card-text mb-3">{{ speaker.bio | newline_to_br }}</p>
+					{% endif %}
+				</div>
+				{% endif %}
+			</div>
+			<div class="card-footer bg-white">
+				<a href="#collapse-{{ forloop.index }}" class="btn btn-outline-primary" data-bs-toggle="collapse"
+				   role="button" aria-expanded="false" aria-controls="collapse-{{ forloop.index }}">
+					Read more...
+				</a>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+	{% for moderator in site.data.moderators.moderators %}
+	{% assign counter = forloop.index %}
+	<div class="col" id="moderator-{{ counter }}">
+		<div class="card border-primary">
+			{% if moderator.image %}
+			<img src="{{ moderator.image }}" class="card-img-top" alt="{{ moderator.name }}" style="height: 480px; object-fit: cover;">
+			{% endif %}
+			<div class="card-body">
+				<div class="d-flex justify-content-between">
+					<h4 class="card-title">{{ moderator.name }}</h4>
+					<div class="text-end">
+						{% for social in moderator.social %}
+						<a href="{{ social.url }}" class="card-link">
+							<i class="fa-brands fa-{{ social.icon }}"></i>
+						</a>
+						{% endfor %}
+					</div>
+				</div>
+				<h5 class="mb-1">Moderator</h5>
+				<p class="card-text" style="height: 60px;">of the event</p>
+				<div class="collapse" id="moderator-collapse-{{ forloop.index }}">
+					<h5 class="mb-1">About</h5>
+					<p class="card-text mb-3">{{ moderator.description | newline_to_br }}</p>
+				</div>
+			</div>
+			<div class="card-footer bg-white">
+				<a href="#moderator-collapse-{{ forloop.index }}" class="btn btn-outline-primary"
+				   data-bs-toggle="collapse" role="button" aria-expanded="false"
+				   aria-controls="moderator-collapse-{{ forloop.index }}">
+					Read more...
+				</a>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+<hr class="m-5">
+
+<h1 id="schedule">Schedule</h1>
+
+<p>
+	There may still be changes to the schedule.
+</p>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+	<table class="table table-striped">
+		<thead>
+		<tr>
+			<th scope="col">Time</th>
+			<th scope="col">Topic</th>
+			<th scope="col">Speaker</th>
+			<th scope="col">Language</th>
+		</tr>
+		</thead>
+		<tbody>
+		{% for entry in site.data.schedule.schedule %}
+		<tr>
+			{% if entry.speaker %}
+				{% assign startTag = '<h5>' %}
+				{% assign endTag = '</h5>' %}
+			{% else %}
+				{% assign startTag = '<h6 class="text-secondary">'%}
+				{% assign endTag = '</h6>'%}
+			{% endif %}
+			<td>{{ startTag }}{{ entry.time }}{{ endTag }}</td>
+			<td>{{ startTag }}{{ entry.topic }}{{ endTag }}</td>
+			<td>
+				{% if entry.card %}
+				<a href="#speaker-{{ entry.card }}" class="speaker-link">
+					{{ startTag }}{{ entry.name }}{{ endTag }}
+				</a>
+				{% else %}
+				{{ startTag }}{{ entry.name }}{{ endTag }}
+				{% endif %}
+			</td>
+			<td>
+				{% if entry.language != '' %}
+					{{ startTag }}<span class="flag-icon flag-icon-{{ entry.language }}"></span>{{ endTag }}
+				{% endif %}
+			</td>
+		</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+</div>
+
+<hr class="m-5">
+
+<h1 id="venue">Venue</h1>
+
+<div class="row">
+	<div class="col-12 col-md-6">
+		<h3>{{ site.data.venue.name }}</h3>
+		<p>
+			<a href="{{ site.data.venue.map_url }}" target="_blank">{{ site.data.venue.address_full }}</a>
+		</p>
+		<p>
+			{{ site.data.venue.description }}
+		</p>
+	</div>
+	<div class="col-12 col-md-6">
+		<img src="{{ site.data.venue.image_url }}" alt="{{ site.data.venue.name }}" class="img-fluid">
+	</div>
+</div>
+
+<div class="background-image" style="background-image: url('{{ site.data.venue.audience_image_url }}');">
+	<div class="image-text">
+		<small>PHP Developer Day 2017</small>
+	</div>
+</div>
+
+<div class="mt-3 mb-3">
+	<img src="{{ site.data.venue.map_image_url }}" alt="{{ site.data.venue.name }}" class="img-fluid">
+	<br>
+	<a href="{{ site.data.venue.map_url }}" target="_blank" class="small">View Larger Map</a>
+</div>
+
+<hr class="m-5">
+
+<h1 id="tickets">Tickets</h1>
+
+<script type="text/javascript">
+    let SiteID = "36986ACF-2931-47BE-BDE2-1A9149348070";
+    let EID = 0;
+    let EDID = 0;
+    let Page = "ListEvents";
+    let Width = "100%";
+    let Height = "400";
+    let BgdColor = "#FFFFFF";
+</script>
+<script type="text/javascript" src="https://connect.vbotickets.com/_assets/js/plugin.js"></script>
+<div id="MyEvent" style="width: 100%;"></div>
+
+<hr class="m-5">
+
+<div class="d-flex justify-content-between">
+	<h1 id="sponsors">Sponsors</h1>
+	<div>
+		<a href="mailto:{{ site.data.sponsors.email }}" class="btn btn-primary btn-lg">
+			Get in touch with us
+			&nbsp;
+			<i class="fa fa-paper-plane text-white"></i>
+		</a>
+	</div>
+</div>
+
+<p>You can support our community event by booking one of our sponsorship partner packages.</p>
+
+<div class="row row-cols-1 row-cols-md-2 mb-5">
+	<div class="col">
+		<h2>
+			{{ site.data.sponsors.partner_package.headline }}
+		</h2>
+		<ul>
+			{% for bullet in site.data.sponsors.partner_package.bullets %}
+			<li>{{ bullet }}</li>
+			{% endfor %}
+		</ul>
+		<h2>
+			Price: {{ site.data.sponsors.partner_package.price }}
+		</h2>
+		<p>
+			Price for active sponsors of the user group: <b>{{ site.data.sponsors.partner_package.price_reduced }}</b>
+		</p>
+	</div>
+	<div class="col">
+		<h2>
+			{{ site.data.sponsors.additions.headline }}
+		</h2>
+		<p>
+			{{ site.data.sponsors.additions.description }}
+		</p>
+		<ul>
+			{% for bullet in site.data.sponsors.additions.bullets %}
+			<li>{{ bullet }}</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+	{% for sponsor in site.data.sponsors.sponsors %}
+	<div class="col">
+		<div class="card">
+			{% if sponsor.image %}
+			<a href="{{ sponsor.url }}" target="_blank">
+				<img src="{{ sponsor.image }}" class="card-img-top" alt="{{ sponsor.name }}" style="height: 450px; object-fit: contain;">
+			</a>
+			{% endif %}
+			<div class="card-body">
+				<h5 class="card-title text-center">
+					<a href="{{ sponsor.url }}" target="_blank">{{ sponsor.name }}</a>
+				</h5>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+<hr class="m-5">
+
+<h1 id="team">Meet the team</h1>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+	{% for member in site.data.team.members %}
+	<div class="col">
+		<div class="card">
+			{% if member.image %}
+			<img src="{{ member.image }}" class="card-img-top" alt="{{ member.name }}">
+			{% endif %}
+			<div class="card-body">
+				<h5 class="card-title">{{ member.name }}</h5>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>

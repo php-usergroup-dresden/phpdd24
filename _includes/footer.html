@@ -1,0 +1,21 @@
+<footer class="mt-5 mb-5">
+	<section class="text-center mb-3">
+		{% for social in site.data.social.social %}
+		{% if social.url %}
+		<a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}" {% endif %}">
+		<i class="fa-brands fa-{{ social.icon }}"></i>
+		</a>
+		&nbsp;&nbsp;·&nbsp;&nbsp;
+		{% endif %}
+		{% endfor %}
+		<a href={{ "/imprint/" | prepend: site.data.settings.baseurl }}>Impressum</a>
+	</section>
+	<section class="text-center">
+		&copy; {{ site.time | date: '%Y' }}
+		<a href="mailto:{{ site.data.imprint.email}}">{{ site.data.imprint.name }}</a>
+		<br>Alle Rechte vorbehalten.
+	</section>
+	<a href="#" class="totop bg-dark">
+		<i class="text-white fa fa-arrow-up"></i>
+	</a>
+</footer>

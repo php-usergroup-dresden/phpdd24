@@ -1,0 +1,12 @@
+name: 'Volkshaus Dresden'
+address_full: 'Schützenplatz 14, 01067 Dresden, Deutschland'
+image_url: '/assets/images/venue/volkshaus-dresden.webp'
+audience_image_url: '/assets/images/welcome/audience.webp'
+map_image_url: '/assets/images/venue/map.svg'
+map_url: 'https://www.openstreetmap.org/#map=18/51.05548/13.72687'
+description: >
+  The venue is located in the city center of Dresden, close to the train station "Bahnhof Mitte". 
+  <br><br>
+  The conference talks take place in the "Richard-Teichgräber-Saal" on the 6th floor. 
+  <br><br>
+  If the weather is fine, we will have lunch and coffee breaks on the roof terrace.'

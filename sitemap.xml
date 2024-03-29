@@ -1,0 +1,31 @@
+---
+layout: null
+search: exclude
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  {% for page in site.pages %}{% if page.url != '/sitemap.xml' and page.sitemap == 'include' %}
+  <url>
+    <loc>{{ site.data.settings.url }}{{ page.url }}</loc>
+    <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>{{ site.data.settings.url }}{{ page.image | default: '/assets/images/logo_m.webp' }}</image:loc>
+      <image:caption>{{ page.title | escape }}{% if page.subtitle %} - {{ page.subtitle | escape }}{% endif %}</image:caption>
+    </image:image>
+  </url>
+  {% endif %}{% endfor %}
+  {% for page in site.posts %}
+  <url>
+    <loc>{{ site.data.settings.url }}{{ page.url }}</loc>
+    <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>{{ site.data.settings.url }}{{ page.image | default: '/assets/images/hwoltersdorf.webp' }}</image:loc>
+      <image:caption>{{ page.title | escape }}{% if page.subtitle %} - {{ page.subtitle | escape }}{% endif %}</image:caption>
+    </image:image>
+  </url>
+  {% endfor %}
+</urlset>
