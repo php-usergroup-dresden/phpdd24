@@ -1,48 +1,41 @@
 speakers:
-  - name: 'Dr. Carola Lilienthal'
+  - name: 'Juliette Reinders Folmer'
     bio: |
-      Dr. Carola Lilienthal ist Software-Architektin und Geschäftsführerin bei WPS - Workplace Solutions GmbH. 
+      Juliette Reinders Folmer is an opinionated, passionate busy-body with a prolific portfolio of contributions to various high profile open source projects over the years. 
       
-      Seit 2003 analysiert sie die Zukunftsfähigkeit von Softwarearchitekturen und spricht auf Konferenzen über dieses Thema. 
+      She is co-author of PHPCompatibility, initiator of PHPModernizer and created the PHP Cheatsheets. 
       
-      2015 hat sie ihre Erfahrungen in dem Buch „Langlebige Softwarearchitekturen“ zusammengefasst und steht kurz vor der Veröffentlichung ihres nächsten Buches „Domain-Driven Transformation“.
-    image: '/assets/images/speakers/carola_lilienthal.jpg'
+      Juliette regularly speaks at conferences and is always happy to discuss how we can all contribute to changing both the dev-culture as well as our code, to be better. 
+      
+      Juliette is self-employed and based in the Netherlands.
+    image: '/assets/images/speakers/juliette-reinders-folmer.webp'
     talk:
-      title: 'Wie cool ist das denn?'
+      title: 'TBA'
       abstract: |
-        Ein halbes Jahrhundert der Software-Entwicklung ist von einem überraschenden Phänomen geprägt: 
-        Wir, die Entwickler:innen und Architekt:innen, haben nicht nur immer wieder neue Technologien und Architekturansätze geschaffen, sondern auch Methoden und Verfahren entwickelt, die über die reine Programmierung von Software hinausgehen. 
-        
-        Projektleiter:innen, Anwender:innen, Betriebs- und Qualitätsmanager:innen haben von unseren Innovationen profitiert. 
-        
-        In diesem Vortrag berichte ich über die erstaunlichen Beiträge, die unsere Disziplin konzipiert und entwickelt hat. 
-        
-        Nach dieser Reise werdet Ihr voller Motivation in die nächsten Vorträge gehen.
+        TBA
     social:
       - icon: 'twitter'
-        url: 'https://twitter.com/cairolali'
+        url: 'https://twitter.com/jrf_nl'
       - icon: 'linkedin'
-        url: 'https://www.linkedin.com/in/carola-lilienthal-a1331073/'
+        url: 'https://www.linkedin.com/in/julietterf/'
       - icon: 'mastodon'
-        url: 'https://mastodon.world/@carolali'
+        url: 'https://phpc.social/@jrf_nl'
 
-  - name: 'Carsten Windler'
+  - name: 'Marco Pivetta'
     bio: |
-      Carsten ist langjähriger PHP-Entwickler und seit PHP 3 seiner Lieblingssprache treu. Im Laufe der Jahre leitete er zudem mehrere Entwicklungsteams und -abteilungen. Sein Fokus gilt der Codequalität und der Umweltverträglichkeit von Software.
-
-      Derzeit arbeitet er als Principal Engineer bei Plan A in Berlin, wo er das Schreiben von Code mit der Leidenschaft, den Klimawandel zu bekämpfen, verbinden kann. Er ist Co-Autor des Buches "Clean Code in PHP", das im Oktober 2022 im Packt-Verlag erschien. Außerdem schreibt er regelmäßig Artikel für Fachpublikationen wie das PHP Magazin und ist aktiver Sprecher auf Entwickler-Konferenzen.
-    image: '/assets/images/speakers/Carsten_Windler.jpg'
+      Marco "Ocramius" Pivetta is a software consultant at Roave. 
+      
+      With over a decade of experience with PHP, he is part of the Zend Framework CR team, Doctrine core team and is also active in the community as a mentor and supporter. 
+      
+      When not coding for work, he usually hacks together new concepts and open source libraries or simply provides Q&A on community channels.
+    image: '/assets/images/speakers/marco-pivetta.webp'
     talk:
-      title: 'Pimp your PHP code for the planet - Mit besserer Performance Zeit, Geld und CO₂ sparen'
+      title: 'TBA'
       abstract: |
-        Knapp 8 Millionen Tonnen CO₂ stoßen allein die Rechenzentren in Deutschland jedes Jahr aus, um unsere Software zum Leben zu erwecken. PHP als die nach wie vor meistgenutzte Programmiersprache des Internets hat daran einen großen Anteil.
-
-        Doch auch abgesehen von den negativen Auswirkungen auf das globale Klima ist langsame Software einfach nur ärgerlich, denn sie kostet bares Geld und verschlechtert die User-Experience. Darum wollen wir unseren Applikationen mal gründlich auf den Zahn fühlen.
-
-        Dabei können schon kleine Änderungen große Unterschiede machen. In diesem Talk schauen wir, welche Möglichkeiten wir haben, um Bottlenecks ausfindig zu machen, und wie wir sie beheben können. Wir wollen aber auch grundsätzlich hinterfragen, wie wir zukünftig Software schreiben können, die nicht nur eine Richtung kennt: größer, schwerer, mehr.
+        TBA
     social:
-      - icon: 'linkedin'
-        url: 'https://www.linkedin.com/in/cwindler'
+      - icon: 'twitter'
+        url: 'https://twitter.com/ocramius'
 
   - name: 'Sebastian Feldmann'
     bio: |
@@ -55,13 +48,9 @@ speakers:
       Sebastian is an open source contributor and maintainer of phpbu and a git hook library called CaptainHook.
     image: '/assets/images/speakers/sebastian-feldmann.jpeg'
     talk:
-      title: 'Mastering Code Reviews: Effective Strategies for Teams'
+      title: 'TBA'
       abstract: |
-        Have you ever found yourself accepting changes without fully understanding them, simply because reviewing them would take too much time? No! Of course not, You would never do that. If you're the kind of person who enjoys spending a crazy amount of time to thoroughly investigate others' changes, this talk may not be for you.
-        
-        However, if you're interested in learning how to improve your code reviews, this talk is exactly what you need. 
-        
-        You'll discover how to present changes in a way that makes them easy to review, how to offer valuable feedback that the author can utilize to improve and learn, and how to help your team come to appreciate code reviews.
+        TBA
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/movetodevnull'
@@ -79,110 +68,57 @@ speakers:
       Sebastian ist Mitgründer und Geschäftsführer von Sandstorm Media, einer Dresdner Web-Agentur mit Fokus auf nachhaltige Software. In seiner Freizeit geht er gern Klettern und verbringt Zeit mit seiner Familie.
     image: '/assets/images/speakers/Sebastian-Kurfuerst.jpg'
     talk:
-      title: 'Debugging und Performance Profiling in der Praxis'
+      title: 'TBA'
       abstract: >
-        Fehler finden und beheben gehört zum täglichen Brot in der Software-Entwicklung. 
-        
-        In diesem Talk geht es um einen methodischen Ansatz zum Finden von Fehlern. 
-        
-        Wir werden uns insbesondere auf Performance Profiling konzentrieren, da es hier besondere Herausforderungen gibt, und einige der üblichen debugging-Tools wie XDebug nur eingeschränkt nutzbar sind. 
-        
-        Wir werden verschiedene Werkzeuge sowie deren Einsatz besprechen, um Performance-Problemen effizient auf die Schliche zu kommen. 
-        
-        Hierbei werden wir den gesamten Stack der Anwendung, incl. IO und Datenbank betrachten.
+        TBA
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/skurfuerst'
       - icon: 'mastodon'
         url: 'https://neos.social/@sebastian'
 
-  - name: 'Florian Engelhardt'
+  - name: 'Stephan Hochdörfer'
     bio: |
-      Proud dad of five kids, husband, Linux and Vim, PHP, Rust, software architect, technical consultant, 
-      geek and I'm getting shit done.
-    image: '/assets/images/speakers/florian-engelhardt.jpeg'
+      Stephan Hochdörfer currently holds the position of Head of IT at bitExpert AG, a company specializing in software and mobile development. 
+      
+      His primary focus is everything related to web development as well as automation techniques ranging from code generation to deployment automation.
+    image: '/assets/images/speakers/stephan-hochdoerfer.webp'
     talk:
-      title: 'Growing the PHP core - One test at a time'
+      title: 'TBA'
       abstract: |
-        Ever dreamt of becoming a PHP core contributor but felt overwhelmed by the prospect of creating RFCs, maintaining extensions, or writing C code? Worry no more!
-        
-        In this talk, you will discover how to make a meaningful impact on the PHP core by writing tests without the need to write C code. 
-        
-        Join me for an interactive session where I will live code a test on stage, demystifying the process and equipping you with essential testing techniques. 
-        
-        Develop the confidence to contribute to the PHP core, one test at a time, and become an invaluable member of the PHP community.
+        TBA
     social:
       - icon: 'twitter'
-        url: 'https://twitter.com/realFlowControl'
+        url: 'https://twitter.com/shochdoerfer'
       - icon: 'mastodon'
-        url: 'https://phpc.social/@flowcontrol'
+        url: 'https://phpc.social/@shochdoerfer'
 
-  - name: 'Roland Golla'
+  - name: '🤫'
     bio: |
-      Roland Golla is a Cypress.IO ambassador and has specialized in automated processes for over 10 years. 
-      
-      He is the founder of TESTIFY.TEAM, an agency for automated tests. 
-      
-      A YouTuber and speaker, he has also advocated for mental health by overcoming a nervous breakdown through better software quality. 
-      
-      Since then, he has advocated for workplace safety in the IT industry.
-    image: '/assets/images/speakers/roland-golla-klein.jpg'
+      TBA
+    image: 'https://placehold.co/512x512?text=🤫'
     talk:
-      title: 'Develop yourself - Open Source bringt uns alle weiter'
+      title: 'TBA'
       abstract: |
-        Als Entwickler hat man es nicht immer leicht. Ständig sollen wir uns weiterentwickeln. 
-        
-        Aber nicht jeder Arbeitgeber lässt das auf der Arbeit zu. Und dann kommt noch dazu, dass man in seiner Freizeit einfach keinen Bock mehr hat etwas zu tun. 
-        
-        In diesem Talk zeige ich euch, wie ihr euch eine innere Persönlichkeit aufbaut, die jeden Schweinehund besiegt. 
-        
-        Dazu gibt es noch eine gehörige Portion Open Source Passion. Denn hier kommt man mit tollen Entwicklern in Kontakt und erfährt alles über richtig gute Software und Toolsets.
+        TBA
     social:
-      - icon: 'twitter'
-        url: 'https://twitter.com/nevercodealone'
-      - icon: 'linkedin'
-        url: 'https://www.linkedin.com/in/rolandgolla'
 
-  - name: 'Andreas Heigl'
+  - name: '🤫'
     bio: |
-      Andreas helps solving problems via his company stella-maris.solutions. He sometimes even uses code for that. 
-      
-      His special interests are in weird topics like time and calendars, odd technologies like LDAP and organizational challenges related to remote work. 
-      
-      Besides his family and contributions to different open-source-projects he still finds the time to co-run PHPUGFFM, the PHP-Usergroup in Frankfurt/Main and maintain PHP.ug.
-    image: '/assets/images/speakers/andreas-heigl.jpg'
+      TBA
+    image: 'https://placehold.co/512x512?text=🤫'
     talk:
-      title: '"Pardon my French" or The technical aspects of i18n and l10n'
+      title: 'TBA'
       abstract: |
-        Localization and Internationalization are two core concepts to create sites and applications for international users. 
-        
-        In creating and working on such international websites I repeatedly made or found the same mistakes and pitfalls that made creating international websites much harder than necessary. 
-        
-        Let me take you on a tour through the concepts and common problems that arise and see how they can be solved with less headache than you might think.
+        TBA
     social:
-      - icon: 'mastodon'
-        url: 'https://andreas.heigl.org/@heiglandreas'
-      - icon: 'linkedin'
-        url: 'https://www.linkedin.com/in/heiglandreas/'
 
-  - name: 'Ondřej Mirtes'
+  - name: '🤫'
     bio: |
-      Ondřej is a full-time open-source software developer. 
-      
-      He likes pointing out mistakes in other people's code so much that he created PHPStan, a popular static analyser that focuses on finding bugs in code without running it.
-    image: '/assets/images/speakers/ondrej-mirtes.jpg'
+      TBA
+    image: 'https://placehold.co/512x512?text=🤫'
     talk:
-      title: 'Tuning PHPStan to Maximum Strictness'
+      title: 'TBA'
       abstract: |
-        Besides the traditional rule levels 0 through 9 which allow developers to adopt PHPStan incrementally while increasing the strictness gradually, the static analyser offers plenty of other configuration options to look at the code with a critical eye. 
-        
-        In this talk I'll show you these options with examples of practical impact on your code. 
-        
-        It will become more predictable and readable.
+        TBA
     social:
-      - icon: 'twitter'
-        url: 'https://twitter.com/OndrejMirtes'
-      - icon: 'mastodon'
-        url: 'https://phpc.social/@OndrejMirtes'
-      - icon: 'linkedin'
-        url: 'https://www.linkedin.com/in/ondrejmirtes/'

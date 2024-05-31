@@ -13,25 +13,25 @@ schedule:
     language: ''
     speaker: false
 
-  - name: 'Dr. Carola Lilienthal'
+  - name: 'Juliette Reinders Folmer'
     time: '09:30'
-    topic: 'Wie cool ist das denn? (Keynote)'
+    topic: 'TBA (Keynote)'
     card: '1'
-    language: ''
+    language: 'en'
     speaker: true
 
-  - name: 'Carsten Windler'
+  - name: 'Marco Pivetta (Ocramius)'
     time: '10:15'
-    topic: 'Pimp your PHP code for the planet'
+    topic: 'TBA'
     card: '2'
-    language: ''
+    language: 'en'
     speaker: true
 
   - name: 'Sebastian Kurfürst'
     time: '11:15'
-    topic: 'Debugging und Performance Profiling in der Praxis'
+    topic: 'TBA'
     card: '4'
-    language: ''
+    language: 'en'
     speaker: true
 
   - name: ''
@@ -41,16 +41,16 @@ schedule:
     language: ''
     speaker: false
 
-  - name: 'Andreas Heigl'
+  - name: 'Sebastian Feldmann'
     time: '13:15'
-    topic: '"Pardon my French" or The technical aspects of i18n and l10n'
+    topic: 'TBA'
     card: '7'
     language: 'en'
     speaker: true
 
-  - name: 'Florian Engelhardt'
+  - name: 'Stephan Hochdörfer'
     time: '14:15'
-    topic: 'Growing the PHP core - One test at a time'
+    topic: 'TBA'
     card: '5'
     language: 'en'
     speaker: true
@@ -62,23 +62,23 @@ schedule:
     language: ''
     speaker: false
 
-  - name: 'Ondřej Mirtes'
+  - name: 'TBA'
     time: '15:30'
-    topic: 'Tuning PHPStan to Maximum Strictness'
+    topic: 'TBA'
     card: '8'
-    language: 'en'
+    language: ''
     speaker: true
 
-  - name: 'Roland Golla'
+  - name: 'TBA'
     time: '16:30'
-    topic: 'Develop yourself - Open Source bringt uns alle weiter'
+    topic: 'TBA'
     card: '6'
     language: ''
     speaker: true
 
-  - name: 'Sebastian Feldmann'
+  - name: 'TBA'
     time: '17:30'
-    topic: 'Mastering Code Reviews'
+    topic: 'TBA'
     card: '3'
     language: ''
     speaker: true
