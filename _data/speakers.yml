@@ -93,14 +93,16 @@ speakers:
       - icon: 'mastodon'
         url: 'https://phpc.social/@shochdoerfer'
 
-  - name: '🤫'
+  - name: 'Sebastian Bergmann'
     bio: |
       TBA
-    image: 'https://placehold.co/512x512?text=🤫'
+    image: '/assets/images/speakers/sebastian-bergmann.jpeg'
     talk:
-      title: 'TBA'
+      title: 'So you think you know PHPUnit'
       abstract: |
-        TBA
+        PHPUnit has been around for over two decades and is used by nearly every PHP developer in the world. While most of us know the basics, there are depths and hidden valleys of PHPUnit that even the most experienced of us may have never even heard of.
+        
+        Join Sebastian Bergmann, the creator and maintainer of PHPUnit, to dig into the hidden depths of lesser known features to get more out of the amazing tool you use every day.
     social:
 
   - name: '🤫'
