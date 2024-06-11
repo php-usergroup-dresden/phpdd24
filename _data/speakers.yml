@@ -10,9 +10,9 @@ speakers:
       Juliette is self-employed and based in the Netherlands.
     image: '/assets/images/speakers/juliette-reinders-folmer.webp'
     talk:
-      title: 'TBA'
+      title: 'Resurrecting the dead'
       abstract: |
-        TBA
+        "Resurrecting the dead", is basically about what it means to be a maintainer of a popular open source project and about succession management in open source. The talk uses PHPCS as the example project.
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/jrf_nl'
@@ -84,23 +84,25 @@ speakers:
       His primary focus is everything related to web development as well as automation techniques ranging from code generation to deployment automation.
     image: '/assets/images/speakers/stephan-hochdoerfer.webp'
     talk:
-      title: 'TBA'
+      title: 'Need a MACH-ready Search Engine? Choose Gally.'
       abstract: |
-        TBA
+        In this talk, let me introduce you to Gally, an (e-commerce) search engine that powers your application's search experience. I'll show you how Gally works, guide you on how to configure Gally for your specific use case, and demonstrate how to integrate Gally into your application easily thanks to its API-first design principles.
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/shochdoerfer'
       - icon: 'mastodon'
         url: 'https://phpc.social/@shochdoerfer'
 
-  - name: '🤫'
+  - name: 'Sebastian Bergmann'
     bio: |
       TBA
-    image: 'https://placehold.co/512x512?text=🤫'
+    image: '/assets/images/speakers/sebastian-bergmann.jpeg'
     talk:
-      title: 'TBA'
+      title: 'So you think you know PHPUnit'
       abstract: |
-        TBA
+        PHPUnit has been around for over two decades and is used by nearly every PHP developer in the world. While most of us know the basics, there are depths and hidden valleys of PHPUnit that even the most experienced of us may have never even heard of.
+        
+        Join Sebastian Bergmann, the creator and maintainer of PHPUnit, to dig into the hidden depths of lesser known features to get more out of the amazing tool you use every day.
     social:
 
   - name: '🤫'
