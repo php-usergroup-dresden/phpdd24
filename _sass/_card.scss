@@ -163,6 +163,7 @@
 .card-img,
 .card-img-top {
   @include border-top-radius(var(--#{$prefix}card-inner-border-radius));
+  padding: 25px;
 }
 
 .card-img,

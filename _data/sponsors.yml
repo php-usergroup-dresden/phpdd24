@@ -63,6 +63,11 @@ sponsors:
     image: '/assets/images/sponsors/seventhings.webp'
     url: 'https://www.seventhings.com/'
 
+  - name: 'LOGSOL GmbH'
+    image: '/assets/images/sponsors/logsol-logo.webp'
+    url: 'https://www.logsol.com'
+
   - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     url: 'mailto:orga@phpug-dresden.org'
+
