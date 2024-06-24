@@ -27,9 +27,9 @@ additions:
       - '1x mobile app sponsor — Look&Feel of the app in your design'
 
 sponsors:
-  - name: 'LINEUPR GmbH'
-    image: '/assets/images/sponsors/lineupr.webp'
-    url: 'https://lineupr.com'
+  - name: 'LOGSOL GmbH'
+    image: '/assets/images/sponsors/logsol-logo.webp'
+    url: 'https://www.logsol.com'
 
   - name: 'move elevator GmbH'
     image: '/assets/images/sponsors/move-elevator.webp'
@@ -39,33 +39,13 @@ sponsors:
     image: '/assets/images/sponsors/mpowr-it.webp'
     url: 'https://mpowr.it'
 
-  - name: 'FORTUNE SOLUTIONS'
-    image: '/assets/images/sponsors/FortuneSolutions.webp'
-    url: 'https://fortuneglobe.com'
+  - name: 'PHPStan / Ondřej Mirtes'
+    image: '/assets/images/sponsors/phpstan.webp'
+    url: 'https://mpowr.it'
 
-  - name: 'Ostec GmbH'
-    image: '/assets/images/sponsors/ostec.webp'
-    url: 'https://ostec.de'
-
-  - name: 'dpunkt.verlag GmbH'
-    image: '/assets/images/sponsors/dpunktverlag.webp'
-    url: 'https://dpunkt.de/'
-
-  - name: 'webit! Gesellschaft für neue Medien mbH'
-    image: '/assets/images/sponsors/webit.webp'
-    url: 'https://www.webit.de/'
-
-  - name: 'Rheinwerk Verlag GmbH'
-    image: '/assets/images/sponsors/rheinwerk.webp'
-    url: 'https://www.rheinwerk-verlag.de/'
-
-  - name: 'seventhings'
-    image: '/assets/images/sponsors/seventhings.webp'
-    url: 'https://www.seventhings.com/'
-
-  - name: 'LOGSOL GmbH'
-    image: '/assets/images/sponsors/logsol-logo.webp'
-    url: 'https://www.logsol.com'
+  - name: 'LINEUPR GmbH'
+    image: '/assets/images/sponsors/lineupr.webp'
+    url: 'https://lineupr.com'
 
   - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
