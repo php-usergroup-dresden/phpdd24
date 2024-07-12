@@ -21,21 +21,22 @@ speakers:
       - icon: 'mastodon'
         url: 'https://phpc.social/@jrf_nl'
 
-  - name: 'Marco Pivetta'
+  - name: 'Ondřej Mirtes'
     bio: |
-      Marco "Ocramius" Pivetta is a software consultant at Roave. 
+      Ondřej is a full-time open-source software developer. 
       
-      With over a decade of experience with PHP, he is part of the Zend Framework CR team, Doctrine core team and is also active in the community as a mentor and supporter. 
-      
-      When not coding for work, he usually hacks together new concepts and open source libraries or simply provides Q&A on community channels.
-    image: '/assets/images/speakers/marco-pivetta.webp'
+      He likes pointing out mistakes in other people's code so much that he created PHPStan, a popular static analyser that focuses on finding bugs in code without running it.
+    image: '/assets/images/speakers/ondrej-mirtes.jpg'
     talk:
-      title: 'TBA'
+      title: 'Writing Custom Rules for PHPStan'
       abstract: |
         TBA
     social:
       - icon: 'twitter'
-        url: 'https://twitter.com/ocramius'
+        url: 'https://twitter.com/OndrejMirtes'
+      - icon: 'mastodon'
+        url: 'https://phpc.social/@
+    
 
   - name: 'Sebastian Feldmann'
     bio: |
@@ -68,9 +69,9 @@ speakers:
       Sebastian ist Mitgründer und Geschäftsführer von Sandstorm Media, einer Dresdner Web-Agentur mit Fokus auf nachhaltige Software. In seiner Freizeit geht er gern Klettern und verbringt Zeit mit seiner Familie.
     image: '/assets/images/speakers/Sebastian-Kurfuerst.jpg'
     talk:
-      title: 'TBA'
-      abstract: >
-        TBA
+      title: 'How to write unmaintainable code'
+      abstract:
+        How do I write code that is as "good" as possible? What does that even mean? I have been working on large open source frameworks (initially TYPO3, now Neos and Flow) for around 20 years. In that time, I have produced a lot of code that I would never write in the same way today - and from which we can learn a lot together. I will critically discuss principles such as extensibility and DRY, show what mistakes I have made when developing frameworks and show which principles we can use to gradually improve our code. The whole thing will be a joint journey into large codebases. I'm looking forward to it!
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/skurfuerst'
@@ -105,22 +106,46 @@ speakers:
         Join Sebastian Bergmann, the creator and maintainer of PHPUnit, to dig into the hidden depths of lesser known features to get more out of the amazing tool you use every day.
     social:
 
-  - name: '🤫'
+  - name: 'Anne-Julia Seitz'
     bio: |
-      TBA
+        TBA
     image: 'https://placehold.co/512x512?text=🤫'
     talk:
-      title: 'TBA'
+      title: 'Running PHP-Applications in a Multi-Process Container'
       abstract: |
-        TBA
+        The deployment scenario for PHP looks a little different than for other languages like Go or Ruby that have embedded webservers. The classic stack of NGINX/Apache + php-fpm doesn't perfectly fit in the container world.
+        
+        Some solution providers, like DigitalOcean or certain Azure products, only allow for single containers to be deployed.
+        
+        In this talk, we'll explore ways other people have solved this, like FrankenPHP, Framework-X , and others. For production deployments, there is k8s, swarm, compose, and running everything in one multiprocess container.
+        
+        These single containers could be orchestrated with systemd, supervisord, or Runit. We'll talk about the benefits and downsides of these solutions, compare them with the choice we made for our last project, s6-overlay, show off the s6-cli project I developed for this purpose and talk about recipes for running database migrations, cronjobs and a few more.
     social:
+      - icon: 'linkedin'
+        url: 'https://www.linkedin.com/in/anne-julia-seitz-1666547/'
+      - icon: 'github'
+        url: 'https://github.com/dazz'
+      - icon: 'speakerdeck'
+        url: 'https://speakerdeck.com/dazz/naming-things'
+      - icon: 'joind.in'
+        url: 'https://joind.in/event/php-uk-conference-2015/naming-things'
 
-  - name: '🤫'
+  - name: 'Carsten Windler'
     bio: |
-      TBA
-    image: 'https://placehold.co/512x512?text=🤫'
+      Carsten ist langjähriger PHP-Entwickler und seit PHP 3 seiner Lieblingssprache treu. Im Laufe der Jahre leitete er zudem mehrere Entwicklungsteams und -abteilungen. Sein Fokus gilt der Codequalität und der Umweltverträglichkeit von Software.
+
+      Derzeit arbeitet er als Principal Engineer bei Plan A in Berlin, wo er das Schreiben von Code mit der Leidenschaft, den Klimawandel zu bekämpfen, verbinden kann. Er ist Co-Autor des Buches "Clean Code in PHP", das im Oktober 2022 im Packt-Verlag erschien. Außerdem schreibt er regelmäßig Artikel für Fachpublikationen wie das PHP Magazin und ist aktiver Sprecher auf Entwickler-Konferenzen.
+    image: '/assets/images/speakers/Carsten_Windler.jpg'
     talk:
-      title: 'TBA'
+      title: 'How to build sustainable web applications'
       abstract: |
-        TBA
+        Software that is built with sustainability in mind not only has a lower carbon footprint, but it is usually more performant, cheaper to operate and robust. Quite some benefits you won't miss for sure.
+  
+        But where to start? How do we even measure the emissions of software? And how can we possibly reduce them?
+  
+        In this talk, we'll explore the latest tools and methodologies that help us to write software which not only makes your users happier, but also stresses the environment a little less.
     social:
+      - icon: 'linkedin'
+        url: 'https://www.linkedin.com/in/cwindler'
+
+

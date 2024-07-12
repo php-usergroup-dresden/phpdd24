@@ -15,21 +15,21 @@ schedule:
 
   - name: 'Juliette Reinders Folmer'
     time: '09:30'
-    topic: 'TBA (Keynote)'
+    topic: 'Resurrecting the dead (Keynote)'
     card: '1'
     language: 'en'
     speaker: true
 
-  - name: 'Marco Pivetta (Ocramius)'
+  - name: 'Sebastian Bergmann'
     time: '10:15'
-    topic: 'TBA'
-    card: '2'
+    topic: 'So you think you know PHPUnit'
+    card: '6'
     language: 'en'
     speaker: true
 
   - name: 'Sebastian Kurfürst'
     time: '11:15'
-    topic: 'TBA'
+    topic: 'How to write unmaintainable code'
     card: '4'
     language: 'en'
     speaker: true
@@ -43,15 +43,15 @@ schedule:
 
   - name: 'Sebastian Feldmann'
     time: '13:15'
-    topic: 'TBA'
-    card: '7'
+    topic: 'A journey from Monolith to Modulith to Microservices and back'
+    card: '3'
     language: 'en'
     speaker: true
 
-  - name: 'Stephan Hochdörfer'
+  - name: 'Ondřej Mirtes'
     time: '14:15'
-    topic: 'TBA'
-    card: '5'
+    topic: 'Writing Custom Rules for PHPStan'
+    card: '2'
     language: 'en'
     speaker: true
 
@@ -62,25 +62,25 @@ schedule:
     language: ''
     speaker: false
 
-  - name: 'TBA'
+  - name: 'Anne-Julia Seitz'
     time: '15:30'
-    topic: 'TBA'
-    card: '8'
-    language: ''
+    topic: 'Running PHP-Applications in a Multi-Process Container'
+    card: '7'
+    language: 'en'
     speaker: true
 
-  - name: 'TBA'
+  - name: 'Stephan Hochdörfer'
     time: '16:30'
-    topic: 'TBA'
-    card: '6'
-    language: ''
+    topic: 'Need a MACH-ready Search Engine? Choose Gally'
+    card: '5'
+    language: 'en'
     speaker: true
 
-  - name: 'TBA'
+  - name: 'Carsten Windler'
     time: '17:30'
-    topic: 'TBA'
-    card: '3'
-    language: ''
+    topic: 'How to build sustainable web applications'
+    card: '8'
+    language: 'en'
     speaker: true
 
   - name: 'Anke Häslich & Holger Woltersdorf'
