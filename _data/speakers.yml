@@ -30,7 +30,7 @@ speakers:
       Ondřej is a full-time open-source software developer. 
       
       He likes pointing out mistakes in other people's code so much that he created PHPStan, a popular static analyser that focuses on finding bugs in code without running it.
-    image: '/assets/images/speakers/ondrej-mirtes.jpg'
+    image: '/assets/images/speakers/ondřej-mirtes.jpg'
     talk:
       title: 'Writing Custom Rules for PHPStan'
       abstract: |
@@ -71,7 +71,7 @@ speakers:
       
       Sebastian is co-founder and managing director of Sandstorm Media, a Dresden-based web agency focussing on sustainable software. In his spare time, he enjoys climbing and spending time with his family.
 
-    image: '/assets/images/speakers/Sebastian-Kurfuerst.jpg'
+    image: '/assets/images/speakers/sebastian-kurfuerst.jpg'
     talk:
       title: 'How to write unmaintainable code'
       abstract:
@@ -113,7 +113,7 @@ speakers:
   - name: 'Anne-Julia Seitz'
     bio: |
       TBA
-    image: 'https://placehold.co/512x512?text=🤫'
+    image: '/assets/images/speakers/anne-julia-seitz.jpg'
     talk:
       title: 'Running PHP-Applications in a Multi-Process Container'
       abstract: |
@@ -139,7 +139,7 @@ speakers:
       Carsten has been a PHP developer for many years and has been loyal to his favourite language since PHP 3. Over the years, he has also led several development teams and departments. His focus is on code quality and the environmental compatibility of software.
 
       He currently works as a Principal Engineer at Plan A in Berlin, where he can combine writing code with a passion for fighting climate change. He is co-author of the book "Clean Code in PHP", which was published by Packt-Verlag in October 2022. He also regularly writes articles for specialist publications such as PHP Magazin and is an active speaker at developer conferences.
-    image: '/assets/images/speakers/Carsten_Windler.jpg'
+    image: '/assets/images/speakers/carsten-windler.jpg'
     talk:
       title: 'How to build sustainable web applications'
       abstract: |
