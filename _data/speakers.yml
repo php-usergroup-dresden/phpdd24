@@ -52,9 +52,13 @@ speakers:
       Sebastian is an open source contributor and maintainer of phpbu and a git hook library called CaptainHook.
     image: '/assets/images/speakers/sebastian-feldmann.jpeg'
     talk:
-      title: 'TBA'
+      title: 'A journey from Monolith to Modulith to Microservices and back'
       abstract: |
-        TBA
+        Building a modular architecture for sustainable growth is a challenge for every successful business. In recent years, Microservices have reigned supreme in architectural discourse and are presented as the holy grail of Software Architecture. However, implementing Microservices the right way comes with a lot of challenges and complexity.
+        
+        This talk will show off a Modulith approach and show how this concept can be applied to tackle those challenges and help you to make a smoother transition towards Microservices.
+        
+        And maybe, just maybe, you won't have to take the last step and thus avoid unnecessary complexity.
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/movetodevnull'
