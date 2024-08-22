@@ -18,12 +18,12 @@ help:
 
 ## Install bundler
 bundler-install:
-	gem install bundler
+	sudo gem install bundler
 .PHONY: bundler-install
 
 ## Update Bundler
 bundler-update:
-	gem update bundler
+	sudo gem update bundler
 .PHONY: bundler-update
 
 ## Update rubygems
