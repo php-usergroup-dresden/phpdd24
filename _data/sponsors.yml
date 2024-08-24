@@ -47,6 +47,14 @@ sponsors:
     image: '/assets/images/sponsors/lineupr.webp'
     url: 'https://lineupr.com'
 
+  - name: 'Sandstorm Media GmbH'
+    image: '/assets/images/sponsors/sandstorm.svg'
+    url: 'https://sandstorm.de/'
+
+  - name: 'CHECK24'
+    image: '/assets/images/sponsors/check24.png'
+    url: 'https://www.check24.de/'
+
   - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     url: 'mailto:orga@phpug-dresden.org'
