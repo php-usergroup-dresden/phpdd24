@@ -59,6 +59,10 @@ sponsors:
     image: '/assets/images/sponsors/xima.png'
     url: 'https://www.xima.de/'
 
+  - name: 'Tideways GmbH'
+    image: '/assets/images/sponsors/tideways.jpg'
+    url: 'https://tideways.com/'
+
   - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     url: 'mailto:orga@phpug-dresden.org'
